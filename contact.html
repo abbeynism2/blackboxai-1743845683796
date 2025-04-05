@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Streetverse - Get in Touch | Customer Support</title>
+    <meta name="description" content="Contact Streetverse for support, inquiries, or feedback. Our dedicated team is here to help with your urban fashion needs. 24/7 customer service available.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-poppins">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0">
+                    <a href="/" class="text-2xl font-bold text-gray-800">Streetverse</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-center space-x-4">
+                        <a href="/" class="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md font-medium">Home</a>
+                        <a href="/products.html" class="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md font-medium">Products</a>
+                        <a href="/about.html" class="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md font-medium">About</a>
+                        <a href="/contact.html" class="text-gray-800 hover:text-gray-600 px-3 py-2 rounded-md font-medium">Contact</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <button class="md:hidden text-gray-800">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Contact Us</h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                Have questions or need assistance? Our dedicated support team is here to help you 24/7. Reach out through any of our contact channels below.
+            </p>
+        </div>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-3xl text-gray-800 mb-4">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Phone Support</h3>
+                    <p class="text-gray-600">24/7 Customer Service</p>
+                    <p class="text-gray-800 font-semibold mt-2">+1 (555) 123-4567</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-3xl text-gray-800 mb-4">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Email Support</h3>
+                    <p class="text-gray-600">Quick Response Time</p>
+                    <p class="text-gray-800 font-semibold mt-2">support@streetverse.shop</p>
+                </div>
+                <div class="text-center p-6 bg-gray-50 rounded-lg">
+                    <div class="text-3xl text-gray-800 mb-4">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Office Location</h3>
+                    <p class="text-gray-600">Main Headquarters</p>
+                    <p class="text-gray-800 font-semibold mt-2">123 Fashion Street, NY 10001</p>
+                </div>
+            </div>
+
+            <!-- Contact Form Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                <div class="bg-gray-50 p-8 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
+                    <form id="contactForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                            <input type="text" id="name" name="name" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+                            <input type="tel" id="phone" name="phone"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject *</label>
+                            <select id="subject" name="subject" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                <option value="">Select a subject</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="product">Product Information</option>
+                                <option value="support">Technical Support</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message *</label>
+                            <textarea id="message" name="message" rows="5" required
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                        </div>
+                        <div class="flex items-start">
+                            <input type="checkbox" id="privacy" name="privacy" required class="mt-1">
+                            <label for="privacy" class="ml-2 text-sm text-gray-600">
+                                I agree to the processing of my personal data according to the 
+                                <a href="/privacy.html" class="text-blue-600 hover:underline">privacy policy</a>.
+                            </label>
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-gray-900 text-white py-3 px-6 rounded-md hover:bg-gray-800 transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div>
+                    <h2 class="text-2xl font-bold mb-6">Business Hours</h2>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-600">Monday - Friday</span>
+                            <span class="font-semibold">9:00 AM - 6:00 PM EST</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-600">Saturday</span>
+                            <span class="font-semibold">10:00 AM - 4:00 PM EST</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-600">Sunday</span>
+                            <span class="font-semibold">Closed</span>
+                        </div>
+                    </div>
+
+                    <h2 class="text-2xl font-bold mb-6">FAQ</h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="font-semibold mb-2">What is your return policy?</h3>
+                            <p class="text-gray-600">We offer a 30-day return policy for all unused items in their original packaging.</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">How long does shipping take?</h3>
+                            <p class="text-gray-600">Standard shipping takes 3-5 business days. Express shipping is available for 1-2 business days delivery.</p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold mb-2">Do you ship internationally?</h3>
+                            <p class="text-gray-600">Yes, we ship to most countries worldwide. International shipping typically takes 7-14 business days.</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-8">
+                        <h2 class="text-2xl font-bold mb-6">Connect With Us</h2>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-600 hover:text-gray-900 text-2xl">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-gray-600 hover:text-gray-900 text-2xl">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-gray-600 hover:text-gray-900 text-2xl">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-600 hover:text-gray-900 text-2xl">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="bg-gray-100 py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-8 text-center">Visit Our Store</h2>
+            <div class="bg-white p-4 rounded-lg shadow-lg">
+                <div class="aspect-w-16 aspect-h-9">
+                    <img src="https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg" alt="Store Location" class="w-full h-96 object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Streetverse</h3>
+                    <p class="text-gray-400">Urban fashion redefined for the style-conscious individual.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="/contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="/terms.html" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                        <li><a href="/privacy.html" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Categories</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Footwear</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Hoodies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Jackets</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Accessories</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl">
+                            <i class="fab fa-pinterest"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Streetverse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Form validation
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic validation
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            if (!name || !email || !subject || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // If validation passes, you would typically submit the form here
+            alert('Thank you for your message. We will get back to you soon!');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
